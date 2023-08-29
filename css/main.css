@@ -1,0 +1,90 @@
+main {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    padding: 2px .6em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.destaque-img {
+    float: right;
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+.artigo1 div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "s t" "s t";
+    text-align: center;
+}
+.sugestoes {
+    /* border: 1px solid; */
+    width: 90%;
+    height: 300px;
+    /* float: right; */
+    background-color: rgba(211, 211, 211, 0.144);
+    grid-area: s;
+}
+.sugestoes img {
+    height: 95%;
+}
+.artigo1 .artigo-paragrafo {
+    margin: auto;
+    font-size: 2em;
+    width: 100%;
+    grid-area: t;
+}
+.artigo1 p {
+    padding: 1em;
+    font-weight: 600;
+    /* grid-area: 2/2; */
+}
+.artigo-paragrafo em {
+    color: red;
+    font-weight: 600;
+}
+
+main div {
+    margin-top: 6em;
+}
+
+div .subtitulo-prod {
+    margin-top: 5px;
+}
+
+.secao-fotos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    /* height: ; */
+}
+
+.secao-fotos figure {
+    box-sizing: border-box;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    padding: .5em;
+    /* background-color: #eec34ca4; */
+    margin-left: 3px;
+}
+
+.secao-fotos figure:hover {
+    height: 300px;
+    width: 400px;
+    transition: 1s;
+
+}
+
+.secao-fotos figure figcaption {
+    color: red;
+    font-weight: bold;
+}
+
+.secao-fotos figure img {
+    width: 90%;
+    height: 80%;
+}

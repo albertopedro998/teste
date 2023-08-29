@@ -1,0 +1,22 @@
+footer {
+    border-top: 1px solid rgba(238, 195, 76, 0.645);;
+}
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.redes-sociais li {
+    text-align: center;
+    margin: 1em 4px;
+    width: 1em;
+    height: 1em;
+    padding-top: .1em;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 2em;
+}
+.redes-sociais .fa-whatsapp:hover {
+    color: green;
+}

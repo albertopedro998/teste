@@ -1,0 +1,60 @@
+header {
+    background-color: rgba(238, 195, 76, 0.645);
+    height: 100px;
+    padding: 0 0.6em;
+}
+
+.cblh-secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.cblh-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.cblh-lista li {
+    margin-right: 20px;
+}
+
+.cblh-lista a:hover {
+    color: white;
+    /* background-color: black; */
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.cblh-lista .contacto:hover {
+    color: rgba(238, 195, 76, 0.645);
+    background-color: white;
+}
+
+header form {
+    display: flex;
+    width: 50%;
+    background-color: black;
+    background-color: red;
+    border-radius: 0 10px 10px 0;
+}
+
+header form * {
+    padding: 7px;
+    outline: none;
+}
+
+header form input {
+    border: 1px solid red;
+    width: 90%;
+}
+
+header form button {
+    background-color: red;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid red;
+}
